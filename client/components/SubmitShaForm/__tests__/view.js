@@ -1,7 +1,10 @@
-// import React from 'react'
-// import SubmitShaForm from '../View'
-// import renderer from 'react-test-renderer'
+import React from 'react'
+import SubmitShaForm from '../View'
+import renderer from 'react-test-renderer'
 
-xit('renders correctly', () => {
-
+it('renders correctly', () => {
+  const tree = renderer
+    .create(<SubmitShaForm shas={['1', '2']} createSha={() => {}} />)
+    .toJSON()
+  expect(tree).toMatchSnapshot();
 })
