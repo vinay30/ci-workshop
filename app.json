@@ -1,0 +1,16 @@
+{
+  "name": "ci-workshop",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": "staging"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
