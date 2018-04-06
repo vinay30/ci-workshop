@@ -7,3 +7,5 @@ This is a simplified version of my personal reference app: [IMS](https://github.
 ## Commands
 
 See commands here: [IMS#Commands](https://github.com/jonathanong/ims#commands)
+
+[![CircleCI](https://circleci.com/gh/vinay30/ci-workshop/tree/master.svg?style=svg&circle-token=7396f7304a2da61b94b1085144e369e24aa48e07)](https://circleci.com/gh/vinay30/ci-workshop/tree/master)
