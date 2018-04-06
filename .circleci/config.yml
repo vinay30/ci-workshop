@@ -9,6 +9,7 @@ jobs:
       - run: npm run eslint
       - run: npm run stylelint
       - run: npm run test:jsdom -- --coverage
+      - run: npm run test:server -- --coverage
       - run: npx codecov
   publish-storybook:
     docker:

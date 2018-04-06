@@ -1,8 +1,8 @@
+const assert = require('assert')
 
-// const assert = require('assert')
+const { createSha } = require('../shas')
 
-// const { createSha } = require('../shas')
-
-xtest('createSha(text)', () => {
-
+test('createSha(text)', () => {
+  const sha = createSha('asdf')
+  assert(/^[0-9a-z]+$/.test(sha))
 })
