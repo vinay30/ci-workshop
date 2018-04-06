@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "ci-reference-app",
   "env": {
     "NODE_ENV": {
@@ -19,3 +20,20 @@
     }
   ]
 }
+=======
+  "name": "ci-workshop",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": "staging"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
+>>>>>>> 0d39349fa0fefad0e70e4a02c9708ee045fdc11e
