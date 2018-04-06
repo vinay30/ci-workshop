@@ -11,6 +11,12 @@ jobs:
       - run: npm run test:jsdom -- --coverage
       - run: npm run test:server -- --coverage
       - run: npx codecov
+      - run:
+          name: serve
+          command: node server
+          background: true
+      - run: sleep 3
+      - run: npm run monitors
   publish-storybook:
     docker:
       - image: circleci/node:8
